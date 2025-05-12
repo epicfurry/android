@@ -12,7 +12,7 @@ This repository contains essential tools for managing Android devices and extrac
 
 1. Initialize the repository:
 ```bash
-repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs -m device-tools.xml
+repo init -u https://github.com/epicfurry/android.git -b extract-tools --git-lfs 
 ```
 
 2. Sync the repository:
