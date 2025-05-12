@@ -14,9 +14,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- Include device tools snippet -->
-  <include name="snippets/device-tools.xml" />
-
   <!-- Device Tools -->
   <project path="device/tools" name="LineageOS/android_device_tools" groups="device,pdk" />
   
