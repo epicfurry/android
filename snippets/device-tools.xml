@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github"
-          fetch=".."
-          review="review.lineageos.org" />
-
-  <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="android-review.googlesource.com"
-          revision="refs/tags/android-15.0.0_r32" />
-
-  <default revision="refs/heads/lineage-22.2"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
-
-  <!-- Include device tools snippet -->
-  <include name="snippets/device-tools.xml" />
-
   <!-- Device Tools -->
   <project path="device/tools" name="LineageOS/android_device_tools" groups="device,pdk" />
   
