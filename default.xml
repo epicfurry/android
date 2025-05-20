@@ -43,6 +43,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
+  <project path="device/xiaomi/sapphiren" name="epicfurry/android_device_xiaomi_sapphiren" remote="github" />
+  <project path="proprietary/xiaomi/sapphiren" name="epicfurry/proprietary_vendor_xiaomi_sapphiren" remote="github" />
+  <project path="device/xiaomi/sapphiren-kernel" name="epicfurry/android_kernel_xiaomi_sapphiren" remote="github" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
